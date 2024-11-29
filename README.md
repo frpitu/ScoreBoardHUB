@@ -1,2 +1,1 @@
-# ScoreBoardHUB
-Public Scoreboard, created for HubSky
+<h1 align='center'>ScoreBoardHUB</h1>
