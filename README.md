@@ -4,7 +4,7 @@
 
 # Status:
 
-| Version | Supported          |
+| Version | Supported |
 
 # Warning:
 [View SECURITY.md](https://github.com/frpitu/ScoreBoardHUB/SECURITY.md)
