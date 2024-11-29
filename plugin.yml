@@ -1,0 +1,20 @@
+name: ScoreBoardHUB
+description: 'Plugin de ScoreBoard encomendado para HubSky'
+version: 1.0
+prefix: '§bHub§fSB'
+load: POSTWORLD
+depend:
+ - PurePerms
+ - PureChat
+main: frpitu\ScoreBoardHUB
+api:
+ - 1.0.0
+ - 2.0.0
+ - 3.0.0
+author: frpitu
+website: https://github.com/frpitu/ScoreBoardHUB
+commands:
+ scoreboard:
+  default: true
+  description: 'Comando de ScoreBoard'
+  aliases: [sb]
