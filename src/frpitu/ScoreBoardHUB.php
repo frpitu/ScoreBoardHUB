@@ -64,7 +64,7 @@ final class ScoreBoardHUB extends PluginBase
 		$this->sqlite3 = new ScoreBoardDatabase($this);
 		$this->sqlite3->initData();
 
-		$this->getServer()->getScheduler()->scheduleRepeatingTask(new ScoreBoardTask($this), 5);
+		$this->getServer()->getScheduler()->scheduleRepeatingTask(new ScoreBoardTask($this), 10);
 		$this->getCommand('scoreboard')->setExecutor(new ScoreBoardCommand($this));
 		$this->getServer()->getPluginManager()->registerEvents(new ScoreBoardListener($this), $this);
 	}
